@@ -1,22 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
+import profileImage from './image/0.jpeg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={profileImage} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          你好！欢迎来到我的 React <br ></br>
+          <h3>点击下方开始 ～</h3> 
         </p>
+        <h1> My  React Pages </h1>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.linkedin.com/in/ma-yi-heng-486b7391/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn from Eric Ma
         </a>
       </header>
     </div>
